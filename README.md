@@ -16,7 +16,7 @@ A interação desses serviços é represetada pelo diagrama a seguir
 
 ## Fluxo
 
-Básicamente, todas as requisições passam pelo **Orquestrador**. Esse serviço é responsável por receber uma requisição do aplicativo e redirecionar para o serviço certo. É nele que toda a lógica fica. Por exemplo, se vamos pagar uma conta, é por meio dele que consultamos o saldo e fazemos o débito do saldo da conta.
+Basicamente, todas as requisições passam pelo **Orquestrador**. Esse serviço é responsável por receber uma requisição do aplicativo e redirecionar para o serviço certo. É nele que toda a lógica fica. Por exemplo, se vamos pagar uma conta, é por meio dele que consultamos o saldo e fazemos o débito do saldo da conta.
 
 Toda transação que o orquestrador efetua lançada para um tópico no _Kafka_ onde o serviço de **Extrato** fica escutando e salvando todas as transações realizadas.
 
