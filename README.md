@@ -9,7 +9,7 @@ Nós estamos montanto o **OT-Bank**. E, vamos começar com alguns serviços apen
   - [BFF](./bff/)
   - [Email](./email/)
   - [Pagamento de boletos](./pagamento-boleto/)
-  - [Recarga de celular](./pagamento-boleto/)
+  - [Recarga de celular](./recarga-celular/)
 
 A interação desses serviços é represetada pelo diagrama a seguir
 
