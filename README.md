@@ -6,6 +6,7 @@ Nós estamos montanto o **OT-Bank**. E, vamos começar com alguns serviços apen
   - [Conta digital](./conta-digital/)
   - [Extrato](./extrato/)
   - [Orquestrador](./orquestrador/)
+  - [BFF](./bff/)
   - [Email](./email/)
   - [Pagamento de boletos](./pagamento-boleto/)
   - [Recarga de celular](./pagamento-boleto/)
